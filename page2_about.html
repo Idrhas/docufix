@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Docufix | About Us</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
         <!-- bootstrap css -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!--google-font-->
@@ -16,7 +16,8 @@
             background-color: #fff;
             background-image: url('https://res.cloudinary.com/dex5cbv1n/image/upload/v1571312350/Group_15_vjpzvv.png');
             background-size: 50%;
-            background-position: right;
+            background-attachment:inherit;
+            background-position:right;
             background-repeat: no-repeat;
             font-style: normal;
             font-weight: bold;
@@ -64,6 +65,7 @@
             list-style: none;
             display: inline-flex;
             padding-left: 340px;
+            float: left;
         }
         .fa {
             font-size: 25px;
@@ -80,6 +82,10 @@
         @media (max-device-width: 767px) {
             footer{
                 height: 141px;
+                display: block;
+                width: 100%;
+                margin-bottom: 40px;
+                overflow:hidden;
             }
             #topnav{
                 height: 82px;
@@ -87,7 +93,7 @@
         }
         #gs-btn{
             position: relative;
-            left: 70vw;
+            left: 60vw;
         }
         #gs-btn:hover{
             background-color: #fff !important;
@@ -141,7 +147,7 @@
     <footer>
         <div class="social">
             <h1 style="font-size: 24px; color: white;"> DOCUFIX</h1>
-            <p style="font-size: 18px; color: white; padding-left: 370px;">Copyright 2019 Docufix.io and HNG6 affiliates</p>
+            <p style="font-size: 18px; color: white;  padding-left: 340px;">Copyright 2019 Docufix.io and HNG6 affiliates</p>
             <div>
                 <ul class="social_media">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
